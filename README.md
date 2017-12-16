@@ -3,8 +3,11 @@
 ### Creating Node.js application ###
 
 1. Install NPM and Express Framework
+   1. create directory
    > $ mkdir docker_webapp 
+   2. Enter into created directory
    > $ cd docker_webapp
+   3. initialize npm
    > $ npm init 
 
 2. Add express framework
