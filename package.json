@@ -1,0 +1,14 @@
+{
+  "name": "docker_webapp",
+  "version": "1.0.0",
+  "description": "Creating and runniang a node application with docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kanika Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
