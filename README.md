@@ -24,12 +24,14 @@
 4. Run docker container
    > docker run -p 8081:8081 docker_webapp
 5. Share docker Image
-   a. Sign up at hub.docker.com
-   b. Build the image again using your Docker Hub credentials:
+   1. Sign up at hub.docker.com
+   2. Build the image again using your Docker Hub credentials:
       > $ docker build -t [USERNAME]/docker_webapp .
-   c. Log in to Docker Hub with your credentials:
+   3. Log in to Docker Hub with your credentials:
       > $ docker login
-   d. Push the image to Docker Hub:
+   4. Push the image to Docker Hub:
       > $ docker push [USERNAME]/docker_webapp
 6. Now you can use the image on any server or PC with Docker installed:
    > $ docker run [USERNAME]/docker_webapp
+
+(PS: Image needs to be downloaded on the first run which may take some time depending on the connection)
