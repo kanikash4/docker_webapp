@@ -36,5 +36,8 @@
       > $ docker push [USERNAME]/docker_webapp
 6. Now you can use the image on any server or PC with Docker installed:
    > $ docker run [USERNAME]/docker_webapp
-
+7. Docker pull command: 
+   > docker pull kanikash4/docker_webapp
+   
+   
 (PS: Image needs to be downloaded on the first run which may take some time depending on the connection)
